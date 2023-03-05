@@ -1,0 +1,36 @@
+{
+  "kind": "collectionType",
+  "collectionName": "best_sellers",
+  "info": {
+    "singularName": "best-seller",
+    "pluralName": "best-sellers",
+    "displayName": "best-seller",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "image": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    },
+    "price": {
+      "type": "integer"
+    }
+  }
+}
